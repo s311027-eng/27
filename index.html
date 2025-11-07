@@ -1,56 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>劉予喬的網頁</title>
+<title>27劉予喬</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  /*height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
 </head>
-<body align="center">
-    <h1 style="color:pink;">下予的奇妙世界</h1>
-    <hr>
-    <p style="color:rgb(196, 145, 194);">雨，是天空的淚水，也是大地的滋養，</p>
-    <P style="color:rgb(127, 164, 173);">生日星座：98/04/11  牡羊座</p>
-    <P style="color:rgb(130, 126, 179);">畢業國中：宏仁國中</p>
-    <P style="color:rgb(167, 177, 113);">個人特色：比較外向、活潑</p>
-    <P style="color:rgb(151, 207, 179);">期待：希望學到更多對未來有幫助的技能</p>
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/ntsh2231175&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-        width="340"
-        height="500"
-        style="border:none;overflow:hidden"
-        scrolling="no"
-        frameborder="0"
-        allowfullscreen="true"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-      </iframe> 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nbzfEkZTFvI?si=uvRHoUcpzDf-2XZ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<body>
+ 
+<h2 style="color:rgb(196, 145, 194);">一邊淋雨一邊升級的人</h2>
+<p>雨，是天空的淚水，也是我沒帶傘時的絕望日常。不過我可是樂觀的牡羊座，2009年4月11日出生,我希望未來能學到一堆超實用技能</p>
+<p>我是2009年4月11日出生的牡羊座，熱血又樂觀。就算被雨淋濕，也要笑著往前走。未來我想學會各種實用技能，從AI應用到影片剪輯、行銷與理財，讓自己變得更強、更自信，也能靠實力賺錢，活出屬於我的精彩人生！</p>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.454884983383!2d120.67827887590052!3d23.908941182670322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693115b0afb3b1%3A0x12636c234990a8fb!2z5Y2X5oqV6auY5Lit6Zu75a2Q5ZWG5YuZ56eR!5e0!3m2!1szh-TW!2stw!4v1760948337615!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
-    <hr>
-    <p><a href="https://www.ntsh.ntct.edu.tw">南投高中</a></p>
-    <a href="test.html">下予的奇妙世界</a>
-    <img style="width:50%"src="1..png" alt="AI圖片">
-    <button onclick="alert('平安健康');">我是按鈕</button>
+<header>
+  <h2>下予的奇妙世界</h2>
+</header>
 
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">我的ai長髮照</a></li>
+      <li><a href="#">朋友</a></li>
+      <li><a href="#">校園生活</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>我的ai長髮照</h1>
+    <img src="1..png" width:250 height="180">
+    <p>我是個充滿元氣的小太陽，喜歡笑、喜歡探索新事物，也喜歡把每天都過得亮亮的！對我來說，生活就像一場冒險遊戲，學習新技能、認識新朋友都是升級的機會。朋友們常說我很容易讓氣氛變開心，因為我總是帶著笑容和滿滿正能量。未來我想變得更厲害、更自信，用努力和夢想閃閃發光！✨</p>
+  </article>
+</section>
 
-<p><span style="color:rgb(199, 134, 165);">雨，是天空的淚水，也是我沒帶傘時的絕望日常。不過我可是樂觀的牡羊座，2009年4月11日出生，</span>
-<p><span style="color:rgb(189, 160, 216);">畢業於宏仁國中，個性活潑外向，走到哪裡熱鬧到哪裡。</span>
-<p><span style="color:rgb(199, 134, 165);">我希望未來能學到一堆超實用技能，</span>
-<p><span style="color:rgb(228, 187, 218);">最好是能讓我變強又賺錢，走路有風，人生開外掛！</span>
+<footer>
+  <p>©版權所有.劉予喬.轉載請註明出處</p>
+</footer>
 
-    
-
-    
-    
-
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F1279088283955481%2F&width=500&show_text=false&height=280&appId"
-  width="500"
-  height="280"
-  style="border:none;overflow:hidden"
-  scrolling="no"
-  frameborder="0"
-  allowfullscreen="true"
-  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-  allowFullScreen="true">
-</iframe>
 </body>
 </html>
+
